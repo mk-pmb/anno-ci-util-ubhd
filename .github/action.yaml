@@ -1,0 +1,16 @@
+%YAML 1.1
+# -*- coding: UTF-8, tab-width: 2 -*-
+---
+
+name: 'Run default UBHD Anno CI checks.'
+description: ''
+
+runs:
+  using: 'composite'
+  steps:
+
+    - name: 'Run all default checks'
+      run: 'exec "${GITHUB_ACTION_PATH%/*}"/repo/run_all_default_checks.sh'
+      shell: bash
+
+...

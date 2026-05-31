@@ -1,0 +1,16 @@
+# -*- coding: utf-8, tab-width: 2 -*-
+dc:contributor
+dc:coverage
+dc:creator
+dc:date
+dc:description
+dc:format
+dc:identifier
+dc:language
+dc:publisher
+dc:relation
+dc:rights
+dc:source
+dc:subject
+dc:title
+dc:type
