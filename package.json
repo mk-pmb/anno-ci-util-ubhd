@@ -1,0 +1,30 @@
+{ "name": "anno-ci-util-ubhd",
+  "version": "0.0.0",
+  "description": "Shared CI tools for our web annotation projects.",
+  "keywords": [],
+
+  "author": "Heidelberg University Library (https://www.ub.uni-heidelberg.de/)",
+  "homepage": "https://github.com/UB-Heidelberg/anno-ci-util-ubhd/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UB-Heidelberg/anno-ci-util-ubhd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UB-Heidelberg/anno-ci-util-ubhd/issues"
+  },
+
+  "contributors": [
+    "M.K. (https://github.com/mk-pmb)"
+  ],
+
+  "private": true, "license": "MIT",
+
+  "bin": "cli.sh",
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "bash": ">=5.0.0" }
+}
