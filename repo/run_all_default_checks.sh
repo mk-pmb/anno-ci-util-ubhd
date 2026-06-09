@@ -9,6 +9,7 @@ function run_all_default_checks_cli_init () {
   ACIU_NAME="$(sed -nre "$ACIU_NAME" -- "$ACIU_REPO"/package.json)"
 
   local TODO=(
+    linters/typos.sh
     linters/vocab-lint/vocab-lint.sh
     )
 
